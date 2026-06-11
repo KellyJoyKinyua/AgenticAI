@@ -1,0 +1,24 @@
+{
+  "name": "task-manager-web-app",
+  "version": "1.0.0",
+  "description": "A simple task manager web application that allows users to add, delete, and mark tasks as completed.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'No build process defined'",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "live-server": "^1.2.1"
+  }
+}
